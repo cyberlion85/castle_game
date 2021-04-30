@@ -50,7 +50,7 @@ public class PlayerNavController : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetMouseButtonDown(0))
         {
 
             RaycastHit hit;
@@ -65,7 +65,7 @@ public class PlayerNavController : MonoBehaviour
             _agent.velocity = Vector3.zero;
             _anim.SetBool("punch", true);
         }
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetMouseButtonUp(0))
         {
             isPunch = false;
             _anim.SetBool("punch", false);
