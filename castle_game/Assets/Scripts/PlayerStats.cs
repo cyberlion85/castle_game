@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class PlayerStats : MonoBehaviour
 {
@@ -32,6 +34,17 @@ public class PlayerStats : MonoBehaviour
             curExp = 0;
             nextLevelExp += 500;
         }
+
+        if (curLive <= 0)
+        {
+            GameOverMenu();
+        }
+    }
+
+    public void GameOverMenu()
+    {
+        //loose screen
+        SceneManager.LoadScene(2);
 
     }
 }
