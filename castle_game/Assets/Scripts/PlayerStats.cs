@@ -20,6 +20,7 @@ public class PlayerStats : MonoBehaviour
 
     void Start()
     {
+
     }
 
     void Update()
@@ -39,12 +40,20 @@ public class PlayerStats : MonoBehaviour
         {
             GameOverMenu();
         }
+
     }
 
     public void GameOverMenu()
     {
         //loose screen
         SceneManager.LoadScene(2);
-
+    }  
+    public void WinMenu()
+    {
+        //loose screen
+        SceneManager.LoadScene(2);
     }
+
+
+
 }
