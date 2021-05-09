@@ -1,31 +1,55 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 public class CubePlacer : MonoBehaviour
 {
+    public bool delObj;
+
     private Grid grid;
-    public GameObject prefab1;
-    public GameObject prefab2;
+
     private GameObject inst_obj;
-    //public GameObject showingObj;
+
+    public List<GameObject> myListObjects = new List<GameObject>();
+
     [SerializeField] GameObject activePrefab;
 
     private void Awake()
     {
         grid = FindObjectOfType<Grid>();
-        activePrefab = prefab1;
+
+    }
+    void SetDelObj(bool status)
+    {
+        delObj = status;
+        Destroy(inst_obj);
+    }
+    void delObject()
+    {
+        if (delObj && Input.GetMouseButtonDown(0))
+        {
+            RaycastHit hitInfo;
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out hitInfo))
+            {
+                Destroy(hitInfo.collider.gameObject);
+            }
+        }
     }
 
-    private void Update()
+    void RotateInstObj()
     {
-
         if (Input.GetKeyDown(KeyCode.A))
         {
             inst_obj.transform.Rotate(0, 90, 0);
             //Vector3 eulerAngles = inst_obj.transform.rotation.eulerAngles;
             //Debug.Log("transform.rotation angles x: " + eulerAngles.x + " y: " + eulerAngles.y + " z: " + eulerAngles.z);
+        }     if (Input.GetKeyDown(KeyCode.D))
+        {
+            inst_obj.transform.Rotate(0, -90, 0);
         }
-
-        if (Input.GetMouseButtonDown(0))
+    }
+    void SetObj() {
+        if (Input.GetMouseButtonDown(0) && !delObj)
         {
             //Debug.Log("call GetMouseButtonDown");
 
@@ -35,13 +59,17 @@ public class CubePlacer : MonoBehaviour
             if (Physics.Raycast(ray, out hitInfo))
             {
                 //---------------------------------
-                //kosil, prinuditelno govorim 4to pol eto 0
+                //kostil, prinuditelno govorim 4to pol eto 0
                 hitInfo.point = new Vector3(hitInfo.point.x, 0f, hitInfo.point.z);
                 //---------------------------------
                 PlaceCubeNear(hitInfo.point);
+
             }
 
         }
+    }
+    void FollowMouse()
+    {
         RaycastHit[] hits;
         Ray rayMouse;
 
@@ -59,7 +87,14 @@ public class CubePlacer : MonoBehaviour
                 inst_obj.transform.position = new Vector3(hit.point.x, 0.1f, hit.point.z);
             }
         }
-        }
+    }
+    private void Update()
+    {
+        delObject();
+        RotateInstObj();
+        SetObj();
+        FollowMouse();
+     }
 
 
     void PlaceCubeNear(Vector3 clickPoint)
@@ -71,22 +106,14 @@ public class CubePlacer : MonoBehaviour
         //Debug.Log(finalPosition);
         Instantiate(inst_obj, finalPosition, inst_obj.transform.rotation);
     }
-    //TODO peredelat na spisok  
-     void SetPrefab1()
+    public void SetPrefab(int i)
         {
-        activePrefab=prefab1;
-        SetCursorObj(activePrefab);
-    }
-    void SetPrefab2()
-        {
-        activePrefab=prefab2;
-        SetCursorObj(activePrefab);
-    }
-
-    void SetCursorObj(GameObject obj)
-    {
+        delObj = false;
         Destroy(inst_obj);
-        inst_obj = Instantiate(obj, transform.position, Quaternion.identity);
-    }
+        activePrefab = myListObjects[i].gameObject;
+        inst_obj = Instantiate(activePrefab, transform.position, Quaternion.identity);
+    }    
+
+
 
 }
