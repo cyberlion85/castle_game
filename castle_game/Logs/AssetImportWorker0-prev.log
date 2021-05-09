@@ -120,8 +120,7 @@ Registering precompiled user dll's ...
 Registered in 0.002467 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.812 seconds
@@ -155,6 +154,54 @@ System memory in use after: 67.4 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1854.
 Total: 2.287100 ms (FindLiveObjects: 0.135800 ms CreateObjectMapping: 0.040600 ms MarkObjects: 2.064500 ms  DeleteObjects: 0.045200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.299225 seconds.
+  path: Assets/Prefabs/GameObject.prefab
+  artifactKey: Guid(90ce67135ad9bd44dab1e79c20fc434a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GameObject.prefab using Guid(90ce67135ad9bd44dab1e79c20fc434a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dffd21053ab6683136e0e1063d7d7e8') in 0.058360 seconds
+  Import took 0.061123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.521899 seconds.
+  path: Assets/Materials/weapons
+  artifactKey: Guid(1260faea0fbe5e54b8eb02ba3c53f01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/weapons using Guid(1260faea0fbe5e54b8eb02ba3c53f01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc1667e81a417e76051bddca0fe931d') in 0.002339 seconds
+  Import took 0.004665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074734 seconds.
+  path: Assets/Materials/weapons/sword1 1.mat
+  artifactKey: Guid(cb9343fad37e12b4780029a4f39d4e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/weapons/sword1 1.mat using Guid(cb9343fad37e12b4780029a4f39d4e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09e30035126b665c2584a3c635bb83c') in 0.020849 seconds
+  Import took 0.022949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Materials/weapons/sword1 3.mat
+  artifactKey: Guid(cb606f229e0058148aad4f4001489e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/weapons/sword1 3.mat using Guid(cb606f229e0058148aad4f4001489e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0579415d6107bbe854fb9cc202240b39') in 0.024032 seconds
+  Import took 0.027151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Materials/weapons/sword1.mat
+  artifactKey: Guid(43c42ee480d1b7542821987017a27261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/weapons/sword1.mat using Guid(43c42ee480d1b7542821987017a27261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a6c4914320b997903a69d55701c734') in 0.015156 seconds
+  Import took 0.018073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000569 seconds.
+  path: Assets/Materials/weapons/sword1 2.mat
+  artifactKey: Guid(f6cf398fb1df27e44b23e71d83cb9063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/weapons/sword1 2.mat using Guid(f6cf398fb1df27e44b23e71d83cb9063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3af44de5c5ef8bb7095b723825fe10') in 0.011454 seconds
+  Import took 0.014196 seconds .
 
 ========================================================================
 Received Prepare
