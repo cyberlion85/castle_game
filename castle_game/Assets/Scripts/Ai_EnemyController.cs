@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class Ai_EnemyController : MonoBehaviour
 {
@@ -67,7 +69,10 @@ public class Ai_EnemyController : MonoBehaviour
             GetComponent<Rigidbody>().isKinematic = false;
             player.GetComponent<PlayerStats>().curExp += 250;
             Destroy(HPslider.gameObject);
+            Destroy(gameObject);
+
             this.enabled = false;
+  
         }
 
         float distance = Vector3.Distance(player.transform.position, transform.position);
@@ -152,7 +157,6 @@ public class Ai_EnemyController : MonoBehaviour
     public void Damage(int dmg)
     {
         HPslider.curHP = HPslider.curHP- dmg;
-
     }
 }
   
