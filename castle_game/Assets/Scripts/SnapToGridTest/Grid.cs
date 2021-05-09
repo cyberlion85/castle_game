@@ -7,12 +7,8 @@ public class Grid : MonoBehaviour
 
     public Vector3 GetNearestPointOnGrid(Vector3 clickPoint)
     {
-        Debug.Log("call GetNearestPointOnGrid");
-        //Debug.Log(clickPoint);
-        Debug.Log(transform.position);
-        //GameObject.CreatePrimitive(PrimitiveType.Sphere).transform.position = transform.position;
+        //Debug.Log("call GetNearestPointOnGrid");
 
-        //clickPoint -= transform.position;
 
         int xCount = Mathf.RoundToInt(clickPoint.x / size);
         int yCount = Mathf.RoundToInt(clickPoint.y / size);
@@ -22,6 +18,8 @@ public class Grid : MonoBehaviour
             (float)xCount * size,
             (float)yCount * size,
             (float)zCount * size);
+
+        //Debug.Log("yCount  " + yCunt);
 
         result += transform.position;
 
