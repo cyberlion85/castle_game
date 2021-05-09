@@ -1,10 +1,10 @@
 Using pre-set license
-Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
 OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'ru' Physical Memory: 32700 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-G:\!unity\2020.3.1f1\Editor\Unity.exe
+G:\!unity\2020.3.7f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,14 +15,14 @@ G:/!unity/castle_game/castle_game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57947
+49828
 Successfully changed project path to: G:/!unity/castle_game/castle_game
 G:/!unity/castle_game/castle_game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 28.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 33.21 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.1f1 (77a89f25062f)
-[Subsystems] Discovering subsystems at path G:/!unity/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path G:/!unity/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path G:/!unity/castle_game/castle_game/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
@@ -32,2023 +32,371 @@ Direct3D:
     VRAM:     11048 MB
     Driver:   27.21.14.6589
 Initialize mono
-Mono path[0] = 'G:/!unity/2020.3.1f1/Editor/Data/Managed'
-Mono path[1] = 'G:/!unity/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'G:/!unity/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+Mono path[0] = 'G:/!unity/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'G:/!unity/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'G:/!unity/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: G:/!unity/2020.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: G:/!unity/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001147 seconds.
+Register platform support module: G:/!unity/2020.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: G:/!unity/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001267 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 24.95 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 33.00 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.497 seconds
+- Completed reload, in  1.695 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002493 seconds.
+Registered in 0.004346 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001B9880B1C30 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98D916010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9884E2010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9886A6C70 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98CF63040 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C4DC050 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C474010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9886A6C70 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98CF63040 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98D2D3E20 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9884E2010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98CF89660 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.834 seconds
+- Completed reload, in  0.915 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1405 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.1 MB.
-System memory in use after: 68.2 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1841.
-Total: 1.714500 ms (FindLiveObjects: 0.211100 ms CreateObjectMapping: 0.076700 ms MarkObjects: 1.352400 ms  DeleteObjects: 0.073300 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/Level1.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ae6dfb17c92004481a30e99a0a032b') in 0.008540 seconds
-  Import took 0.010694 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002838 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B9881B9020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98D8C4020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990E70750 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98CC17010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98CFC7030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98D8C4020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98DB84010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98D0FF510 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9882F1850 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B987D77980 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B987E12740 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9905FE020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.772 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.1 MB.
-System memory in use after: 67.1 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1844.
-Total: 1.546500 ms (FindLiveObjects: 0.138400 ms CreateObjectMapping: 0.044500 ms MarkObjects: 1.317200 ms  DeleteObjects: 0.045200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002400 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B987E00C90 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98CBE5030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B988064AF0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B7BD4D2190 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98CFC7030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98CBE5030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98856B010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B7BD4D2190 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9882F1850 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B987CA4940 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98D2D3E20 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98E6D74B0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.809 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.1 MB.
-System memory in use after: 67.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1847.
-Total: 1.777700 ms (FindLiveObjects: 0.130500 ms CreateObjectMapping: 0.041800 ms MarkObjects: 1.559000 ms  DeleteObjects: 0.045000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003699 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B990ACCCB0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B987D65170 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9884FB8A0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990E668E0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B988501890 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B987D65170 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990A7D130 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98CC17010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9883C7710 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9909C9420 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98E05FDF0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990A4CF80 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.786 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.1 MB.
-System memory in use after: 67.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1850.
-Total: 1.609800 ms (FindLiveObjects: 0.132200 ms CreateObjectMapping: 0.037100 ms MarkObjects: 1.393500 ms  DeleteObjects: 0.045400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002691 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B990ACECC0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9914FA020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9884FB8A0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990E668E0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F93BFD0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98CAB9020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990A7B120 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98CC17010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9883C7710 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990CEB050 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990F3A230 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990A4CF80 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.754 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.1 MB.
-System memory in use after: 67.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1853.
-Total: 1.727900 ms (FindLiveObjects: 0.201200 ms CreateObjectMapping: 0.083000 ms MarkObjects: 1.392000 ms  DeleteObjects: 0.050500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002430 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B990E1EE30 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990D0C010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9909B9030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98CC17010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B988501890 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F96F020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98856B010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98CC17010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B987D65170 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9909C9420 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990F3A230 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98FE68030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.757 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.1 MB.
-System memory in use after: 67.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1856.
-Total: 1.592300 ms (FindLiveObjects: 0.120200 ms CreateObjectMapping: 0.039800 ms MarkObjects: 1.383000 ms  DeleteObjects: 0.048200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 535.477974 seconds.
-  path: Assets/Scripts/Ai_EnemyController.cs
-  artifactKey: Guid(92e466f6c2027a34186d6f653dfdfb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Ai_EnemyController.cs using Guid(92e466f6c2027a34186d6f653dfdfb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a0caf79142b203aa28681ee4e4b9bc') in 0.036321 seconds
-  Import took 0.038740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001082 seconds.
-  path: Assets/Scripts/Ai_EnemyController.cs
-  artifactKey: Guid(92e466f6c2027a34186d6f653dfdfb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Ai_EnemyController.cs using Guid(92e466f6c2027a34186d6f653dfdfb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a0caf79142b203aa28681ee4e4b9bc') in 0.001427 seconds
-  Import took 0.003441 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002465 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B98C41E020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98FAE5010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9884FB8A0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9883F9B90 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B23AC020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B231A010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98D1DD040 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9883F9B90 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9882F1850 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98D2D3E20 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98FEA5BB0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9904F3020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.771 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.2 MB.
-System memory in use after: 67.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1859.
-Total: 1.585800 ms (FindLiveObjects: 0.161300 ms CreateObjectMapping: 0.049800 ms MarkObjects: 1.326500 ms  DeleteObjects: 0.047300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 102.568375 seconds.
-  path: Assets/Scripts/Ai_EnemyController.cs
-  artifactKey: Guid(92e466f6c2027a34186d6f653dfdfb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Ai_EnemyController.cs using Guid(92e466f6c2027a34186d6f653dfdfb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0cf8f110ee66945546faa1ae058c5e2') in 0.002719 seconds
-  Import took 0.004489 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.953814 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(3be789eea4ec1a2489623b61ce5d1233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(3be789eea4ec1a2489623b61ce5d1233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cdd52a5d42777ae81da032d74df1b16') in 0.001439 seconds
-  Import took 0.003550 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.031852 seconds.
-  path: Assets/Scripts/EnemiesStatus.cs
-  artifactKey: Guid(27dbd2809f09e7b41bb6b53219380197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemiesStatus.cs using Guid(27dbd2809f09e7b41bb6b53219380197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8806940b5f5ec4a8ebd541d9aeb93571') in 0.001561 seconds
-  Import took 0.003458 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002367 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B9909AED50 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990D0C010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990F589B0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C434020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990D28160 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B231A010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990CCAEA0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990F2DF60 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990AD0CD0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9902B2D60 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98D2D3E20 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98CB85020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.799 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.2 MB.
-System memory in use after: 67.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1863.
-Total: 1.723500 ms (FindLiveObjects: 0.244800 ms CreateObjectMapping: 0.084400 ms MarkObjects: 1.345300 ms  DeleteObjects: 0.048000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002762 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B98FA87450 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990D0C010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990F589B0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C434020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B2C5C020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B231A010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98856B010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990F2DF60 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9882F1850 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9902B2D60 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98D2D3E20 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98CB85020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.764 seconds
-Platform modules already initialized, skipping
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
 Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.2 MB.
-System memory in use after: 67.3 MB.
+Unloading 1409 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.4 MB.
+System memory in use after: 68.4 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1866.
-Total: 1.950600 ms (FindLiveObjects: 0.230200 ms CreateObjectMapping: 0.082000 ms MarkObjects: 1.497700 ms  DeleteObjects: 0.139500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 319.374046 seconds.
-  path: Assets/Scripts/EnemiesStatus.cs
-  artifactKey: Guid(27dbd2809f09e7b41bb6b53219380197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemiesStatus.cs using Guid(27dbd2809f09e7b41bb6b53219380197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd822d031ebf404fcfe85264b22c353') in 0.002757 seconds
-  Import took 0.004634 seconds .
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1845.
+Total: 1.611400 ms (FindLiveObjects: 0.139600 ms CreateObjectMapping: 0.043000 ms MarkObjects: 1.350700 ms  DeleteObjects: 0.077000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003496 seconds.
-  path: Assets/Scripts/EnemiesStatus.cs
-  artifactKey: Guid(27dbd2809f09e7b41bb6b53219380197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemiesStatus.cs using Guid(27dbd2809f09e7b41bb6b53219380197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd822d031ebf404fcfe85264b22c353') in 0.001090 seconds
-  Import took 0.002897 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002779 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B9B255AB50 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990D0C010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9884FB8A0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C5E8030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C7CE010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B231A010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98856B010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F930020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9882F1850 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9902B2D60 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98FEA5BB0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9904F3020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.790 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.2 MB.
-System memory in use after: 67.2 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1868.
-Total: 1.497400 ms (FindLiveObjects: 0.126600 ms CreateObjectMapping: 0.038300 ms MarkObjects: 1.286400 ms  DeleteObjects: 0.045400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002615 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B98FA87450 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990D0C010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9884FB8A0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C5E8030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B2AC1030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98D02D010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98856B010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990483020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9882F1850 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9900E4020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98FEA5BB0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9905FE020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.802 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.2 MB.
-System memory in use after: 67.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1871.
-Total: 1.500000 ms (FindLiveObjects: 0.136000 ms CreateObjectMapping: 0.043800 ms MarkObjects: 1.273000 ms  DeleteObjects: 0.046300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002488 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B9885AEDD0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990D0C010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9884FB8A0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98D1FD050 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B25BF040 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B231A010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98856B010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B988121040 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B2BC7030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9902B2D60 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98FEA5BB0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9905FE020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.754 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.2 MB.
-System memory in use after: 67.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1874.
-Total: 1.525300 ms (FindLiveObjects: 0.129800 ms CreateObjectMapping: 0.038300 ms MarkObjects: 1.306900 ms  DeleteObjects: 0.049000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002371 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B988406290 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B26F9010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9884FB8A0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98D1FD050 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B24B2030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B2484020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98856B010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B988121040 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9882F1850 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C494020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98CE08010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B2FE4010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.791 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.2 MB.
-System memory in use after: 67.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1877.
-Total: 1.698500 ms (FindLiveObjects: 0.214600 ms CreateObjectMapping: 0.051400 ms MarkObjects: 1.384300 ms  DeleteObjects: 0.047300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002404 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B988406290 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990D0C010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9884FB8A0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990F2DF60 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B2841070 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F96F020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B298B010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98CB97010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B2E17020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9902B2D60 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98FEA5BB0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B2FE4010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.815 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.2 MB.
-System memory in use after: 67.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1880.
-Total: 1.610900 ms (FindLiveObjects: 0.128600 ms CreateObjectMapping: 0.037200 ms MarkObjects: 1.394300 ms  DeleteObjects: 0.049700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002383 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B990E1EE30 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990D0C010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9884FB8A0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990610010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B2841070 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F96F020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98856B010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98CB97010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9882F1850 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990D819E0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98FEA5BB0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B2FE4010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.773 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.2 MB.
-System memory in use after: 67.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1883.
-Total: 1.755300 ms (FindLiveObjects: 0.216700 ms CreateObjectMapping: 0.054700 ms MarkObjects: 1.437400 ms  DeleteObjects: 0.045600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002417 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B9B24EFA40 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990D0C010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9884FB8A0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B2552B40 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B3036030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B2484020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B298B010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C414020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9882F1850 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C772020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98FEA5BB0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C5D8020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.838 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.2 MB.
-System memory in use after: 67.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1887.
-Total: 1.966600 ms (FindLiveObjects: 0.276800 ms CreateObjectMapping: 0.075200 ms MarkObjects: 1.563200 ms  DeleteObjects: 0.050000 ms)
+  path: Assets/Materials/weapons/sword1 3.mat
+  artifactKey: Guid(cb606f229e0058148aad4f4001489e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/weapons/sword1 3.mat using Guid(cb606f229e0058148aad4f4001489e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff39c259fed46cf2004af65939420c2') in 0.127832 seconds
+  Import took 0.130215 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 461.931531 seconds.
-  path: Assets/Scripts/WinPoint.cs
-  artifactKey: Guid(5951fa0fdf216de4887a99e5d2139dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/WinPoint.cs using Guid(5951fa0fdf216de4887a99e5d2139dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a59fc8f0ea669b17f9530de43fa5dc9') in 0.003195 seconds
-  Import took 0.005716 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002453 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B9B24EFA40 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990D0C010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9884FB8A0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B2552B40 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B2FA2020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B99001C060 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F7E8080 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98801B020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B2739050 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C772020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98FEA5BB0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C5D8020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.816 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.2 MB.
-System memory in use after: 67.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1890.
-Total: 1.685600 ms (FindLiveObjects: 0.139700 ms CreateObjectMapping: 0.048000 ms MarkObjects: 1.450500 ms  DeleteObjects: 0.046700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002381 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B9909AEAB0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990D0C010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9884FB8A0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98DCC9020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B991305DC0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F96F020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F7E8080 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98801B020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9882F1850 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C772020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98FEA5BB0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C5D8020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.796 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.2 MB.
-System memory in use after: 67.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1893.
-Total: 1.514700 ms (FindLiveObjects: 0.163900 ms CreateObjectMapping: 0.049400 ms MarkObjects: 1.255200 ms  DeleteObjects: 0.045400 ms)
+  Time since last request: 0.000236 seconds.
+  path: Assets/Materials/weapons
+  artifactKey: Guid(1260faea0fbe5e54b8eb02ba3c53f01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/weapons using Guid(1260faea0fbe5e54b8eb02ba3c53f01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11583823cf131f939ca1264eafc990bd') in 0.001117 seconds
+  Import took 0.003302 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 82.640431 seconds.
-  path: Assets/Scripts/FireBallTrigger.cs
-  artifactKey: Guid(13e7e71c968089b4d8e1eae9146fb0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FireBallTrigger.cs using Guid(13e7e71c968089b4d8e1eae9146fb0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5078f95c042a09c849fbbacd4ebfa5d') in 0.002774 seconds
-  Import took 0.004883 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002513 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B9909AEAB0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990D0C010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9884FB8A0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F930020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B991305DC0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F96F020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F7E8080 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98801B020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9916FDEB0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C772020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98FEA5BB0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B3068020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.787 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.2 MB.
-System memory in use after: 67.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1896.
-Total: 1.601700 ms (FindLiveObjects: 0.149500 ms CreateObjectMapping: 0.042900 ms MarkObjects: 1.356500 ms  DeleteObjects: 0.051700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002457 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B9B255AB50 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990D0C010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9884FB8A0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C5E8030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B991305DC0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B2E0A030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98856B010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98CB97010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9882F1850 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C772020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98FEA5BB0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98E681030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.766 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.2 MB.
-System memory in use after: 67.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1899.
-Total: 1.610300 ms (FindLiveObjects: 0.137600 ms CreateObjectMapping: 0.044800 ms MarkObjects: 1.379500 ms  DeleteObjects: 0.047300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002376 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B9B255AB50 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990D0C010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9884FB8A0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C5E8030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B991305DC0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B99001C060 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98856B010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98E112010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9882F1850 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C772020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B987CA4940 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B3D41020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.761 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.2 MB.
-System memory in use after: 67.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1902.
-Total: 1.634000 ms (FindLiveObjects: 0.147600 ms CreateObjectMapping: 0.052300 ms MarkObjects: 1.386400 ms  DeleteObjects: 0.046800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002396 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B990BCF020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990D0C010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C80E060 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98CB97010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B2CC0820 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F96F020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F7E8080 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98E112010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9882F1850 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990507A30 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990F26070 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B2DFA020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.756 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.3 MB.
-System memory in use after: 67.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1905.
-Total: 1.495600 ms (FindLiveObjects: 0.140800 ms CreateObjectMapping: 0.040300 ms MarkObjects: 1.263600 ms  DeleteObjects: 0.050000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002373 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B990BCF020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990D0C010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C80E060 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98CB97010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B2CC0820 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F96F020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F7E8080 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98E112010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9882F1850 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990507A30 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98CE08010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B2DFA020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.765 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.3 MB.
-System memory in use after: 67.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1908.
-Total: 1.747000 ms (FindLiveObjects: 0.207900 ms CreateObjectMapping: 0.071700 ms MarkObjects: 1.417400 ms  DeleteObjects: 0.049000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002340 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B98DCD2980 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990D0C010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C80E060 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98CB97010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B37C9820 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F96F020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98856B010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98E112010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9882F1850 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990E1AE20 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C5ECA30 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9904F3020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.786 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.3 MB.
-System memory in use after: 67.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1911.
-Total: 2.196400 ms (FindLiveObjects: 0.157700 ms CreateObjectMapping: 0.049200 ms MarkObjects: 1.922800 ms  DeleteObjects: 0.065300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002331 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B990E1EE30 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F821010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C80E060 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98D39C2A0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B2FA2020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F96F020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98856B010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B272D020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9882F1850 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9901FF010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98CE08010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B2851080 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.818 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.3 MB.
-System memory in use after: 67.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1914.
-Total: 1.685100 ms (FindLiveObjects: 0.184700 ms CreateObjectMapping: 0.051500 ms MarkObjects: 1.396500 ms  DeleteObjects: 0.050500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002415 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B9B255AB50 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F821010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B991619030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98E112010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B3DE30A0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98D02D010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F7E8080 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B272D020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9882F1850 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B463E030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9902B2D60 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B38E7010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.908 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.3 MB.
-System memory in use after: 67.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1917.
-Total: 1.698600 ms (FindLiveObjects: 0.138700 ms CreateObjectMapping: 0.043700 ms MarkObjects: 1.467100 ms  DeleteObjects: 0.048100 ms)
+  Time since last request: 0.000317 seconds.
+  path: Assets/Materials/weapons/sword1.mat
+  artifactKey: Guid(43c42ee480d1b7542821987017a27261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/weapons/sword1.mat using Guid(43c42ee480d1b7542821987017a27261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e767005960316fd72977a8e9d0baaa2b') in 0.007832 seconds
+  Import took 0.011016 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 672.049060 seconds.
-  path: Assets/Prefabs/Game/Enemy.prefab
-  artifactKey: Guid(a945fdf804ed2574c9ac6f851c70859e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Game/Enemy.prefab using Guid(a945fdf804ed2574c9ac6f851c70859e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b733acbe34e0cb6830f590983c99a1') in 0.085568 seconds
-  Import took 0.087848 seconds .
+  Time since last request: 0.000224 seconds.
+  path: Assets/Materials/fireball.mat
+  artifactKey: Guid(d538889c5826254418fffff85b27e825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/fireball.mat using Guid(d538889c5826254418fffff85b27e825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636c2faae6b6ac162c801e313e2e4615') in 0.032807 seconds
+  Import took 0.035560 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Prefabs/Game/Fireball.prefab
-  artifactKey: Guid(fe448123b9b80b74d9f1ab5260ab41b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Game/Fireball.prefab using Guid(fe448123b9b80b74d9f1ab5260ab41b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f6c1f2eb83bd092c1bf4deecc57ff0') in 0.006839 seconds
-  Import took 0.009525 seconds .
+  Time since last request: 0.000243 seconds.
+  path: Assets/Materials/Player/Bag.mat
+  artifactKey: Guid(f27332e8f9561b04693e9bc0570c6d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player/Bag.mat using Guid(f27332e8f9561b04693e9bc0570c6d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95b0fd04d19cb12a9129247699c57e9') in 0.014304 seconds
+  Import took 0.017653 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Prefabs/Game/Player.prefab
-  artifactKey: Guid(8198e3b67c99e4b4ca3d6ccd87920413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Game/Player.prefab using Guid(8198e3b67c99e4b4ca3d6ccd87920413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff4caf1e5d3788729416e1ece5170de') in 0.008767 seconds
-  Import took 0.011683 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002518 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B9B255AB50 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F821010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B991619030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98E112010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B4559010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98D02D010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98856B010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98801B020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9882F1850 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B463E030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9902B2D60 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C5D8020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.775 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.5 MB.
-System memory in use after: 70.5 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1928.
-Total: 1.640000 ms (FindLiveObjects: 0.140800 ms CreateObjectMapping: 0.043900 ms MarkObjects: 1.401700 ms  DeleteObjects: 0.052700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002368 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B98C776030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F821010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B991619030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98E112010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B4559010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B3D51030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98856B010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98801B020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9882F1850 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B463E030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9902B2D60 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C5D8020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.791 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.5 MB.
-System memory in use after: 70.6 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1931.
-Total: 1.553000 ms (FindLiveObjects: 0.139900 ms CreateObjectMapping: 0.042900 ms MarkObjects: 1.320900 ms  DeleteObjects: 0.048400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002666 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B98FED4050 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F821010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F977030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B2552B40 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B4716010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B29AD010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F7E8080 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98DE4B010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9882F1850 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B463E030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B3A56020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C5D8020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.793 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.5 MB.
-System memory in use after: 70.6 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1934.
-Total: 1.718800 ms (FindLiveObjects: 0.263900 ms CreateObjectMapping: 0.070600 ms MarkObjects: 1.336700 ms  DeleteObjects: 0.046800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002372 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B990E1EE30 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F821010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990CEAEE0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B29AD010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B43EF010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B29AD010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98856B010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B29AD010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9882F1850 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B3F08E20 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98CE08010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C5D8020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.748 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.5 MB.
-System memory in use after: 70.6 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1937.
-Total: 1.733400 ms (FindLiveObjects: 0.222700 ms CreateObjectMapping: 0.046300 ms MarkObjects: 1.417500 ms  DeleteObjects: 0.045900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002358 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B98C776030 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F821010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B990024070 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B2552B40 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B4285DB0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98D02D010 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98F7E8080 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B2E080B0 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9882F1850 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98D002840 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B9B3F08E20 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B98C5D8020 doesn't match image G:\!unity\castle_game\castle_game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.763 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.5 MB.
-System memory in use after: 70.6 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1940.
-Total: 1.517700 ms (FindLiveObjects: 0.136900 ms CreateObjectMapping: 0.044000 ms MarkObjects: 1.291300 ms  DeleteObjects: 0.044600 ms)
+  Time since last request: 0.000336 seconds.
+  path: Assets/Materials/Бесшовная текстура земли #7141.mat
+  artifactKey: Guid(d6afe6ab2f5a24b4e86de73cc5f28e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Бесшовная текстура земли #7141.mat using Guid(d6afe6ab2f5a24b4e86de73cc5f28e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e3fc1daaa6431a574bf60090fd0a77') in 0.031055 seconds
+  Import took 0.033821 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 302.085700 seconds.
-  path: Assets/Scenes/Loose 1.unity
-  artifactKey: Guid(5e7deb116b30cc648b7fde70ebb7412f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Loose 1.unity using Guid(5e7deb116b30cc648b7fde70ebb7412f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af71dab888351b7636e3cac9cf34f14') in 0.014532 seconds
-  Import took 0.016744 seconds .
+  Time since last request: 0.000230 seconds.
+  path: Assets/Materials/Player/Legs.mat
+  artifactKey: Guid(d1825288e7da5ac449a5a3c216f4f796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player/Legs.mat using Guid(d1825288e7da5ac449a5a3c216f4f796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c210f84b2e4132920f690679cc6571c5') in 0.009707 seconds
+  Import took 0.012036 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.613703 seconds.
-  path: Assets/Scenes/Win.unity
-  artifactKey: Guid(5e7deb116b30cc648b7fde70ebb7412f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Win.unity using Guid(5e7deb116b30cc648b7fde70ebb7412f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa780ad4fb50115891a87d61df3daeb') in 0.001540 seconds
-  Import took 0.003839 seconds .
+  Time since last request: 0.000232 seconds.
+  path: Assets/Materials/weapons/sword1 2.mat
+  artifactKey: Guid(f6cf398fb1df27e44b23e71d83cb9063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/weapons/sword1 2.mat using Guid(f6cf398fb1df27e44b23e71d83cb9063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7542da177dac28925c143c5e3d83bc0') in 0.007634 seconds
+  Import took 0.010380 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.411398 seconds.
-  path: Assets/Images/White/2x/trophy.png
-  artifactKey: Guid(ce01d41a61d5ac54b84e50a6daea1379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/White/2x/trophy.png using Guid(ce01d41a61d5ac54b84e50a6daea1379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088a01d59ae9dbd117d84baea2523ee4') in 0.082670 seconds
-  Import took 0.084672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Images/Black/1x/trophy.png
-  artifactKey: Guid(2f7579af82783c04b9e6ebc01d8b36d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Black/1x/trophy.png using Guid(2f7579af82783c04b9e6ebc01d8b36d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9163dfb888f41b456521fb7ca8809994') in 0.006346 seconds
-  Import took 0.008606 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Images/White/1x/up.png
-  artifactKey: Guid(3846b00e318de344cb8dc274699b06f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/White/1x/up.png using Guid(3846b00e318de344cb8dc274699b06f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fac35fd4d55dbaaa7b0532d46a41396') in 0.005154 seconds
-  Import took 0.007081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Images/Black/1x/warning.png
-  artifactKey: Guid(0adf58f957a70b84789d7dad41e245a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Black/1x/warning.png using Guid(0adf58f957a70b84789d7dad41e245a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61abee2c96ed53cf13da4db83b96896e') in 0.005604 seconds
-  Import took 0.008013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Images/Black/2x/upLeft.png
-  artifactKey: Guid(2cf1a615f7039284f9e2b2e5397a5b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Black/2x/upLeft.png using Guid(2cf1a615f7039284f9e2b2e5397a5b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96e2dc9ad1af20b98699a497925180d') in 0.007411 seconds
-  Import took 0.010069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Images/Black/1x/zoom.png
-  artifactKey: Guid(bf076f2a4429ffe4d895e8cf5a4921c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Black/1x/zoom.png using Guid(bf076f2a4429ffe4d895e8cf5a4921c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deee129eb5d0f5dc5adff0ff8133e2e9') in 0.005611 seconds
-  Import took 0.008249 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Images/Black/2x/zoomOut.png
-  artifactKey: Guid(22e377a818baa5e4fa38eb5ffe18fc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Black/2x/zoomOut.png using Guid(22e377a818baa5e4fa38eb5ffe18fc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf8be3bf10cb144476cb85e207cb714') in 0.006645 seconds
-  Import took 0.008651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Images/White/2x/up.png
-  artifactKey: Guid(35fe534c646a9234db53152cbd535a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/White/2x/up.png using Guid(35fe534c646a9234db53152cbd535a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab1cd3acd76d2b219ab1d38b099108c') in 0.005954 seconds
-  Import took 0.008124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Images/Black/2x/upRight.png
-  artifactKey: Guid(62c2b3a65e81918479286dda1ce2bc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Black/2x/upRight.png using Guid(62c2b3a65e81918479286dda1ce2bc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1fec9f39eb0184309ccf9da4e0caa95') in 0.009275 seconds
-  Import took 0.011224 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Images/Black/1x/upRight.png
-  artifactKey: Guid(5eddbe9a37a0c7844836bdfee3af1bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Black/1x/upRight.png using Guid(5eddbe9a37a0c7844836bdfee3af1bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9eeb748e293a08ee7be2437c0b1b318') in 0.009213 seconds
-  Import took 0.011131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Images/Black/2x/up.png
-  artifactKey: Guid(fc337e629f8ebac4d91aac3ede154080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Black/2x/up.png using Guid(fc337e629f8ebac4d91aac3ede154080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fcf6e04568c8e735e86cde520fd525') in 0.006968 seconds
-  Import took 0.009598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Images/Black/2x/video.png
-  artifactKey: Guid(5361857652d0b7847bffc00c26875163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Black/2x/video.png using Guid(5361857652d0b7847bffc00c26875163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a122297e6a41a3571014e3b1ee4e1d') in 0.005953 seconds
-  Import took 0.008000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Images/Black/2x/zoom.png
-  artifactKey: Guid(3967e25a21a1ab44382fa6bcd1d800e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Black/2x/zoom.png using Guid(3967e25a21a1ab44382fa6bcd1d800e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdcb0ed6f0e5c46ea2239f2f87c4769') in 0.008032 seconds
-  Import took 0.009997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Images/White/1x/zoom.png
-  artifactKey: Guid(857263fd0c83df54ca60cc1227dfada7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/White/1x/zoom.png using Guid(857263fd0c83df54ca60cc1227dfada7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ed768c816975c2f1560c43807d9b74') in 0.007915 seconds
-  Import took 0.010080 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Images/White/2x/warning.png
-  artifactKey: Guid(3334a777b258f784eb5af03903439952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/White/2x/warning.png using Guid(3334a777b258f784eb5af03903439952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4513147ac4b07c6ea03f21476be06a') in 0.007715 seconds
-  Import took 0.009637 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Images/White/2x/video.png
-  artifactKey: Guid(cb778b7fc9a24e14a96368ecb62cfc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/White/2x/video.png using Guid(cb778b7fc9a24e14a96368ecb62cfc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c361a321c89604620c6c44fe9fea96a') in 0.007502 seconds
-  Import took 0.009532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Images/White/1x/zoomIn.png
-  artifactKey: Guid(c43ccbc97b236a34cb193032866fb5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/White/1x/zoomIn.png using Guid(c43ccbc97b236a34cb193032866fb5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d900a66a1f07aaa82a027c7b05fecda') in 0.006103 seconds
-  Import took 0.008763 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Images/White/1x/unlocked.png
-  artifactKey: Guid(bec63365c1328fb44a79187124fbe925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/White/1x/unlocked.png using Guid(bec63365c1328fb44a79187124fbe925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b4716202b16af5b4007f2125bc4018d') in 0.011521 seconds
-  Import took 0.013730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Images/White/2x/wrench.png
-  artifactKey: Guid(2f38930e2e2d1f047beb196051308ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/White/2x/wrench.png using Guid(2f38930e2e2d1f047beb196051308ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c30ae6a0e8bfff2325086eb0c8c370') in 0.005865 seconds
-  Import took 0.007994 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Images/White/1x/warning.png
-  artifactKey: Guid(e3b812886c95d5c4a91c39986067ab09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/White/1x/warning.png using Guid(e3b812886c95d5c4a91c39986067ab09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16e0533f3a3834dcd2a4233608a3a4b') in 0.004978 seconds
-  Import took 0.007469 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Images/Black/1x/zoomOut.png
-  artifactKey: Guid(78fdee09b15269747ba89b8447d41de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Black/1x/zoomOut.png using Guid(78fdee09b15269747ba89b8447d41de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be03f7118444f86bcd35227e38821812') in 0.005537 seconds
-  Import took 0.007663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Images/Black/1x/zoomDefault.png
-  artifactKey: Guid(3f3ba28335423544b86123ef9a972b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Black/1x/zoomDefault.png using Guid(3f3ba28335423544b86123ef9a972b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27b90696b6923ce3c959dd6c58ab5e2') in 0.007496 seconds
-  Import took 0.009524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Images/White/2x/unlocked.png
-  artifactKey: Guid(c54c7e0db75061342b6977e4f1703904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/White/2x/unlocked.png using Guid(c54c7e0db75061342b6977e4f1703904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a87a1408e9984f34fd95f256026c97') in 0.008065 seconds
-  Import took 0.010269 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Images/White/2x/upRight.png
-  artifactKey: Guid(be04f37d82c15794ea10eb6ef1197b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/White/2x/upRight.png using Guid(be04f37d82c15794ea10eb6ef1197b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e086b45514ef00738485df4460107a69') in 0.005390 seconds
-  Import took 0.007607 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Images/White/1x/wrench.png
-  artifactKey: Guid(2aaec7674878bbe449af3ea61d108a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/White/1x/wrench.png using Guid(2aaec7674878bbe449af3ea61d108a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be66d9cbbb7c8a5ca1b0d2b40491626') in 0.010770 seconds
-  Import took 0.013183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Images/Black/2x/zoomDefault.png
-  artifactKey: Guid(8ad9964f756161949b6a9d944402d81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Black/2x/zoomDefault.png using Guid(8ad9964f756161949b6a9d944402d81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1fca81323f94b3d1fc53bd5638b40be') in 0.006045 seconds
-  Import took 0.008086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Images/White/2x/zoomOut.png
-  artifactKey: Guid(93d36df183af6814286a020f343a8970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/White/2x/zoomOut.png using Guid(93d36df183af6814286a020f343a8970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630a61efd11cfefeb7e61294791455b8') in 0.005041 seconds
-  Import took 0.007100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Images/Black/1x/video.png
-  artifactKey: Guid(8b5aa0449259c274f9e45ae04bfdc352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Black/1x/video.png using Guid(8b5aa0449259c274f9e45ae04bfdc352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33cc52aa88f440036910d273653c5a6') in 0.007987 seconds
-  Import took 0.009988 seconds .
+  Time since last request: 0.000333 seconds.
+  path: Assets/Materials/Player
+  artifactKey: Guid(f539693f35ab0934f91992dfb13c60c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player using Guid(f539693f35ab0934f91992dfb13c60c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21277d6f0b443c8a6dc489b5dafa3cea') in 0.001690 seconds
+  Import took 0.004654 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000202 seconds.
-  path: Assets/Images/Black/1x/zoomIn.png
-  artifactKey: Guid(cf7adc2b7ac6e574a9e83e03ac0d5718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Black/1x/zoomIn.png using Guid(cf7adc2b7ac6e574a9e83e03ac0d5718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b34ae363c99901f03289aec4177675') in 0.007367 seconds
-  Import took 0.009481 seconds .
+  path: Assets/Materials/Player/Body.mat
+  artifactKey: Guid(d6bea91d179e6774c8cfc67f56e6171f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player/Body.mat using Guid(d6bea91d179e6774c8cfc67f56e6171f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabae6d2cae99bf6c3a221407be46c5c') in 0.014384 seconds
+  Import took 0.016658 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Images/Black/2x/trophy.png
-  artifactKey: Guid(9ff81bc3be134904d8ee7ee048afa023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Black/2x/trophy.png using Guid(9ff81bc3be134904d8ee7ee048afa023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70009427a8709a8a4c1ccd6f8fd00c09') in 0.005612 seconds
-  Import took 0.007485 seconds .
+  Time since last request: 0.000218 seconds.
+  path: Assets/Materials/Player/Head.mat
+  artifactKey: Guid(ce4d37dd3bc7fd1499b7b18985834dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player/Head.mat using Guid(ce4d37dd3bc7fd1499b7b18985834dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1356ec02a85bf09dd321f731aeb65055') in 0.009936 seconds
+  Import took 0.012600 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Images/White/2x/zoomIn.png
-  artifactKey: Guid(a2e41213a51a9874291f67d33dd1e37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/White/2x/zoomIn.png using Guid(a2e41213a51a9874291f67d33dd1e37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a97eef8d97cd2600c9db995d68b7444') in 0.006759 seconds
-  Import took 0.008772 seconds .
+  Time since last request: 0.000239 seconds.
+  path: Assets/Materials/weapons/sword1 1.mat
+  artifactKey: Guid(cb9343fad37e12b4780029a4f39d4e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/weapons/sword1 1.mat using Guid(cb9343fad37e12b4780029a4f39d4e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f65b505f429e1d9ab78db2c2608fbe') in 0.009830 seconds
+  Import took 0.012963 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Images/Black/2x/wrench.png
-  artifactKey: Guid(884c98287bd390c4e9bb5b27ec69a77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Black/2x/wrench.png using Guid(884c98287bd390c4e9bb5b27ec69a77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ed999b49795e6469bb58fa654de2a3') in 0.007209 seconds
-  Import took 0.009300 seconds .
+  Time since last request: 0.000235 seconds.
+  path: Assets/Materials/Player/Bag 1.mat
+  artifactKey: Guid(fee1a9f1dcabe494eb60e0798993c9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player/Bag 1.mat using Guid(fee1a9f1dcabe494eb60e0798993c9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a94a587e294ad991ee2026b60676db') in 0.010791 seconds
+  Import took 0.013885 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Images/White/1x/zoomDefault.png
-  artifactKey: Guid(6c47c837e7e2515459b97746b841c1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/White/1x/zoomDefault.png using Guid(6c47c837e7e2515459b97746b841c1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a79dc796d40653b49508aab2f191192') in 0.007248 seconds
-  Import took 0.009334 seconds .
+  Time since last request: 76.664846 seconds.
+  path: Assets/Prefabs/Game
+  artifactKey: Guid(6490bc027e934ca4781a045fa8def2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Game using Guid(6490bc027e934ca4781a045fa8def2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b334ae6a3fe9d1dff8e919f51bd12b') in 0.001726 seconds
+  Import took 0.005006 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002431 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.860 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.6 MB.
+System memory in use after: 70.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1888.
+Total: 1.614400 ms (FindLiveObjects: 0.155800 ms CreateObjectMapping: 0.048200 ms MarkObjects: 1.358900 ms  DeleteObjects: 0.050100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Images/Black/1x/unlocked.png
-  artifactKey: Guid(33852e396d7966b4fb4976b4aed263e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Black/1x/unlocked.png using Guid(33852e396d7966b4fb4976b4aed263e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4de282c14e15ed804ceba31882c35b6') in 0.011000 seconds
-  Import took 0.013396 seconds .
+  Time since last request: 151.808703 seconds.
+  path: Assets/Prefabs/difCube.prefab
+  artifactKey: Guid(7d57fd2b430b32c4d8ad577bedbaafb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/difCube.prefab using Guid(7d57fd2b430b32c4d8ad577bedbaafb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d56400ac661662ce3b0c0b44031b02a') in 0.055182 seconds
+  Import took 0.057498 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Images/Black/2x/warning.png
-  artifactKey: Guid(075a468217237cb408fc64fe00665f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Black/2x/warning.png using Guid(075a468217237cb408fc64fe00665f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faff6b168d47ae0a74253ec3bb4a2004') in 0.009076 seconds
-  Import took 0.011102 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002906 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.855 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.6 MB.
+System memory in use after: 70.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1893.
+Total: 1.642800 ms (FindLiveObjects: 0.144600 ms CreateObjectMapping: 0.046500 ms MarkObjects: 1.408600 ms  DeleteObjects: 0.042300 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Images/Black/2x/unlocked.png
-  artifactKey: Guid(2993da9c3a7242e4489640ddc57101b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Black/2x/unlocked.png using Guid(2993da9c3a7242e4489640ddc57101b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33906c35d1334059652981170c4eb9ae') in 0.010443 seconds
-  Import took 0.012482 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003325 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.849 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.6 MB.
+System memory in use after: 70.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1896.
+Total: 1.585200 ms (FindLiveObjects: 0.153500 ms CreateObjectMapping: 0.050500 ms MarkObjects: 1.333900 ms  DeleteObjects: 0.045800 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Images/White/1x/upLeft.png
-  artifactKey: Guid(e229e6f2e3f297f4797090ef5d94d265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/White/1x/upLeft.png using Guid(e229e6f2e3f297f4797090ef5d94d265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad79a7385881c62ecd1e56da76411856') in 0.006266 seconds
-  Import took 0.008492 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002504 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.880 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.7 MB.
+System memory in use after: 70.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1899.
+Total: 1.705300 ms (FindLiveObjects: 0.136100 ms CreateObjectMapping: 0.042600 ms MarkObjects: 1.481600 ms  DeleteObjects: 0.043900 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Images/White/1x/upRight.png
-  artifactKey: Guid(e85b378cd7f89cb4a8245d93d1b0c267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/White/1x/upRight.png using Guid(e85b378cd7f89cb4a8245d93d1b0c267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbc4501781ecd3ed5becb014847df42') in 0.005383 seconds
-  Import took 0.007304 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003332 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.761 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.7 MB.
+System memory in use after: 70.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1902.
+Total: 1.661800 ms (FindLiveObjects: 0.134400 ms CreateObjectMapping: 0.041000 ms MarkObjects: 1.439800 ms  DeleteObjects: 0.045800 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Images/White/1x/video.png
-  artifactKey: Guid(6e79eb44f729dd242bb3c49d9b3b44a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/White/1x/video.png using Guid(6e79eb44f729dd242bb3c49d9b3b44a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d64693e1fdc00e52d218f71cc30dc2') in 0.005396 seconds
-  Import took 0.007364 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003468 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.750 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.7 MB.
+System memory in use after: 70.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1905.
+Total: 1.564000 ms (FindLiveObjects: 0.193400 ms CreateObjectMapping: 0.043300 ms MarkObjects: 1.282400 ms  DeleteObjects: 0.043800 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Images/White/1x/zoomOut.png
-  artifactKey: Guid(01ba6b6f775129547a0f853837873284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/White/1x/zoomOut.png using Guid(01ba6b6f775129547a0f853837873284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229e04ad7615b8e6fd2a7de36ed6e348') in 0.005487 seconds
-  Import took 0.007782 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002757 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.753 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.7 MB.
+System memory in use after: 70.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1908.
+Total: 1.831200 ms (FindLiveObjects: 0.208700 ms CreateObjectMapping: 0.071600 ms MarkObjects: 1.502200 ms  DeleteObjects: 0.047700 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Images/Black/1x/upLeft.png
-  artifactKey: Guid(42ca247b19003ab4a962c665eae090a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Black/1x/upLeft.png using Guid(42ca247b19003ab4a962c665eae090a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7c42abb292f364eb51b025a49e172b') in 0.007697 seconds
-  Import took 0.009720 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002399 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.774 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.7 MB.
+System memory in use after: 70.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1911.
+Total: 1.685700 ms (FindLiveObjects: 0.152400 ms CreateObjectMapping: 0.041100 ms MarkObjects: 1.444600 ms  DeleteObjects: 0.046300 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Images/Black/2x/zoomIn.png
-  artifactKey: Guid(92dcfa34e260d3a4da8b2556d6d256a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Black/2x/zoomIn.png using Guid(92dcfa34e260d3a4da8b2556d6d256a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6cb3ec8efdcb689965f21cdb3fb0b9') in 0.007860 seconds
-  Import took 0.009923 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002390 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.757 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.7 MB.
+System memory in use after: 70.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1914.
+Total: 1.796000 ms (FindLiveObjects: 0.169800 ms CreateObjectMapping: 0.048600 ms MarkObjects: 1.522400 ms  DeleteObjects: 0.053400 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Images/White/2x/zoomDefault.png
-  artifactKey: Guid(536e055ebfac78742bea008de5f850aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/White/2x/zoomDefault.png using Guid(536e055ebfac78742bea008de5f850aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ee700398826e6b2c16dbc7da8b464d') in 0.008593 seconds
-  Import took 0.010726 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002487 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.737 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.7 MB.
+System memory in use after: 70.8 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Images/Black/1x/up.png
-  artifactKey: Guid(e169815048d72074f865e6592b2065e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Black/1x/up.png using Guid(e169815048d72074f865e6592b2065e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2539bc84e7adc98230e6dd61c7a37d53') in 0.005177 seconds
-  Import took 0.007235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Images/White/2x/upLeft.png
-  artifactKey: Guid(b8a0d6743f9998e44b888ac039d12a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/White/2x/upLeft.png using Guid(b8a0d6743f9998e44b888ac039d12a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99654e3e0bac90facc03cdba790cabbf') in 0.009738 seconds
-  Import took 0.012121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Images/Black/1x/wrench.png
-  artifactKey: Guid(6dbab10439ebe9e4e8de801aea714dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Black/1x/wrench.png using Guid(6dbab10439ebe9e4e8de801aea714dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ce3c0ad4a2a12a4767707a0774cdd0') in 0.008718 seconds
-  Import took 0.010937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Images/White/2x/zoom.png
-  artifactKey: Guid(4bbbc1547ca102a428e8f7beb63ccd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/White/2x/zoom.png using Guid(4bbbc1547ca102a428e8f7beb63ccd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8d2ec50b9be79074befe9bea7a075b') in 0.008335 seconds
-  Import took 0.010558 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.825710 seconds.
-  path: Assets/Scenes/Win.unity
-  artifactKey: Guid(5e7deb116b30cc648b7fde70ebb7412f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Win.unity using Guid(5e7deb116b30cc648b7fde70ebb7412f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c4be4c1c94b507e5bcd5d0e3681108') in 0.001809 seconds
-  Import took 0.004202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000665 seconds.
-  path: Assets/Scenes/Win.unity
-  artifactKey: Guid(5e7deb116b30cc648b7fde70ebb7412f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Win.unity using Guid(5e7deb116b30cc648b7fde70ebb7412f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c4be4c1c94b507e5bcd5d0e3681108') in 0.001765 seconds
-  Import took 0.004006 seconds .
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1917.
+Total: 1.583100 ms (FindLiveObjects: 0.152000 ms CreateObjectMapping: 0.048200 ms MarkObjects: 1.335500 ms  DeleteObjects: 0.046200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
